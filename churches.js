@@ -81,5 +81,14 @@ const churches = [
     address: "202 Sample Street, Sydney",
     website: "https://cccsydney.com.au",
     image: "https://example.com/sydney.jpg"
+  },
+  {
+    name: "Paroisse Terre Sainte de Montreal",
+    lat: 45.5546399,
+    lng: -73.5869448,
+    country: "Canada",
+    address: "3215 B Rue Beaubien Est, Montreal, QC",
+    website: "#",
+    image: "#"
   }
 ];
