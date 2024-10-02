@@ -15,7 +15,7 @@ const churches = [
       country: "Benin", 
       address: "Tchakou, Porto-Novo", 
       website: "https://thecccworldwide.org",
-      image: "https://example.com/supreme-hq.jpg"
+      image: "https://live.staticflickr.com/65535/54035493545_13d4156614_h.jpg"
     },
     {
       name: "CCC Holy City", 
