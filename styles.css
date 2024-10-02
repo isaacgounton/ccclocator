@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  #map {
+    flex-grow: 1;
+    z-index: 1;
+  }
+  .controls {
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  }
+  #search {
+    flex-grow: 1;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  #filter {
+    padding: 0.7rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: white;
+    cursor: pointer;
+  }
+  #locate {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+  }
+  .church-info {
+    text-align: center;
+  }
+  .church-info img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .church-info h3 {
+    margin: 0 0 5px 0;
+    color: #1e3a8a;
+  }
+  .church-info p {
+    margin: 5px 0;
+  }
+  .church-info .website {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+  }
