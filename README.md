@@ -7,8 +7,21 @@ Contribuez à la géolocalisation des paroisses de l'Église du Christianisme C�
 
 ## 📝 Comment Contribuer
 
+### Obtenir les Coordonnées GPS
+La méthode recommandée pour obtenir les coordonnées de votre paroisse est d'utiliser **GPS Locator Gabrielle** :
+
+1. Visitez [GPS Locator Gabrielle](https://locatorgabrielle.web.app/)
+2. Rendez-vous physiquement à votre paroisse
+3. Copiez les coordonnées (latitude et longitude) affichées dans l'application
+
 ### Format des Données
-Pour ajouter votre paroisse, envoyez-nous les informations suivantes au format JSON :
+Pour ajouter votre paroisse, envoyez-nous :
+- Les coordonnées GPS obtenues via GPS Locator Gabrielle
+- Le nom complet de la paroisse
+- L'adresse complète
+- Une photo de la paroisse
+
+Nous formaterons vos informations dans le format suivant :
 
 ```json
 {
@@ -21,24 +34,6 @@ Pour ajouter votre paroisse, envoyez-nous les informations suivantes au format J
   "image": "https://live.staticflickr.com/65535/54035493545_13d4156614_h.jpg"
 }
 ```
-
-### 📋 Description des Champs
-
-| Champ | Description |
-|-------|-------------|
-| `name` | Nom complet de la paroisse |
-| `lat` | Latitude de la paroisse |
-| `lng` | Longitude de la paroisse |
-| `country` | Pays où se trouve la paroisse |
-| `address` | Adresse complète de la paroisse |
-| `website` | Site web ou page de réseaux sociaux (optionnel) |
-| `image` | Lien vers une photo de la paroisse |
-
-### 🗺️ Comment Obtenir les Coordonnées GPS
-
-Pour obtenir la latitude et la longitude de votre paroisse, vous pouvez utiliser :
-- [coordonnees-gps.fr](https://www.coordonnees-gps.fr)
-- ou l'application Google Maps
 
 ### 📸 Photos de la Paroisse
 

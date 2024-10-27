@@ -88,6 +88,15 @@ const churches = [
         address: "3215 B Rue Beaubien Est, Montreal, QC",
         website: "#",
         image: "#"
+      },
+      {
+        name: "Paroisse Glogbo 2 Centre",
+        lat: 45.5546399,
+        lng: -73.5869448,
+        country: "Benin",
+        address: "Glogbo, Sèmè kraké",
+        website: "#",
+        image: "#"
       }
   ];
   
