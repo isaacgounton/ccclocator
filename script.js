@@ -91,8 +91,8 @@ const churches = [
       },
       {
         name: "Paroisse Glogbo 2 Centre",
-        lat: 45.5546399,
-        lng: -73.5869448,
+        lat: 6.3761693,
+        lng: 2.6976029,
         country: "Benin",
         address: "Glogbo, Sèmè kraké",
         website: "#",
